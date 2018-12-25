@@ -1,8 +1,9 @@
 #include <FastLED.h>
 
-
+//Uncomment only one of them to select charactor group.
 #include "Aqours.h"
 //#include "Muse.h"
+//#include "PERFECT_Dream.h"
 
 #include <SPI.h>
 #include <Wire.h>
