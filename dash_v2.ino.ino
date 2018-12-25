@@ -75,6 +75,8 @@ void showMenu(int index) {
   display.println(F(""));
   display.print(F("dash.ino "));
   display.println(F(VERSION));
+  //请尊重劳动成果，不要移除作者信息
+  //Please respect the author and please do not remove the copyright information.
   display.print(F("(c)TEAM A72"));
   display.display();
 }
@@ -121,6 +123,8 @@ void showWelcome() {
   display.println(F(""));
   display.println(F(" Testing color LED..."));
   display.println(F(""));
+  //请尊重劳动成果，不要移除作者信息
+  //Please respect the author and please do not remove the copyright information.
   display.println(F("    2018 TEAM A72"));
   display.display();
   delay(0);
