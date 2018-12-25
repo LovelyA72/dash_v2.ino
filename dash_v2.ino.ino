@@ -77,7 +77,7 @@ void showMenu(int index) {
   display.println(F(VERSION));
   //请尊重劳动成果，不要移除作者信息
   //Please respect the author and please do not remove the copyright information.
-  display.print(F("(c)TEAM A72"));
+  display.print(F("(c)LovelyA72"));
   display.display();
 }
 
