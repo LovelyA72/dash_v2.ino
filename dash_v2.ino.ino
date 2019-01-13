@@ -13,7 +13,7 @@
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
-#define VERSION "0.12b"
+#define VERSION "0.13b"
 
 #define KEY_LEFT 9
 #define KEY_RIGHT 7
@@ -107,7 +107,7 @@ void showWarning(void) {
     wen, LOGO_WIDTH, LOGO_HEIGHT, 1);
   display.setCursor(0, 32);
   display.println(F("    The LED can be"));
-  display.println(F("  extremly hot while"));
+  display.println(F(" extremely hot while"));
   display.println(F("      operating."));
   display.display();
   delay(2000);
